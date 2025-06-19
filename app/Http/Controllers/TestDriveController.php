@@ -15,11 +15,18 @@ class TestDriveController extends Controller
             'email' => 'nullable|email',
             'address' => 'nullable',
             'car_model' => 'required',
-            'test_date' => 'required|date',
-            'note' => 'nullable',
+            'test_date' => 'required|date'
         ]);
 
-        TestDrive::create($request->all());
+        TestDrive::create([
+            'name'       => $request->name,
+            'phone'      => $request->phone,
+            'email'      => $request->email,
+            'address'    => $request->address,
+            'car_model'  => $request->car_model,
+            'test_date'  => $request->test_date
+        ]);
+
 
         return back()->with('success', 'Đăng ký thành công!');
     }

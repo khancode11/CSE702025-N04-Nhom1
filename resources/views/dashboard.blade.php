@@ -26,7 +26,7 @@
         </ul>
       </nav>
       <div class="user">
-        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Admin">
+        <img src="" alt="Admin">
         <div>
           <p>Admin User</p>
           <span>Super Admin</span>
@@ -46,7 +46,7 @@
           <i class="fas fa-users"></i>
           <div>
             <h3>Total Users</h3>
-            <p>1,248</p>
+            <p>0</p>
           </div>
         </div>
 
@@ -54,7 +54,7 @@
           <i class="fas fa-car"></i>
           <div>
             <h3>Available Vehicles</h3>
-            <p>87</p>
+            <p>0</p>
           </div>
         </div>
 
@@ -62,7 +62,7 @@
           <i class="fas fa-calendar-alt"></i>
           <div>
             <h3>Test Drives</h3>
-            <p>56</p>
+            <p>0</p>
           </div>
         </div>
       </section>

@@ -16,7 +16,7 @@
         </div>
         <nav>
             <h4>Dashboard</h4>
-            <a class="nav-item active" href="/overview">
+            <a class="nav-item active" href="/dashboard">
                 <i class="fas fa-chart-line"></i> Overview
             </a>
             <h4>Management</h4>
